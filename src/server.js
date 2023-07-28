@@ -25,6 +25,6 @@ nunjucks.configure('src/app/views', {
   noCache: true
 });
 
-server.listen(5000, function () {
-  console.log('server is running on port 5000.');
+server.listen(80, function () {
+  console.log('server is running on port 80.');
 });
